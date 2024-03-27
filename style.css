@@ -1,0 +1,141 @@
+
+:root{
+  --cor-principal--: grey;
+  --preto--: black;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Exo 2", sans-serif;
+}
+body{
+  background-color: rgb(9, 9, 9);
+}
+
+header{
+  background-color: var(--preto--)
+  }
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+ul{
+  display: flex;
+  list-style: none;
+
+}
+
+ul li{
+  padding: 12px;
+  text-decoration: none;
+
+}
+a{
+ color: white;
+ text-decoration: none;
+}
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+  background-color: var(--cor-principal--);
+ 
+}
+
+p{
+  color: rgb(218, 215, 215);
+  white-space: pre-line;
+
+}
+.menu{
+  margin: 10px;
+  border:  3px solid white;
+  border-radius: 3px;
+}
+
+.textos{
+text-align: center;
+}
+.textos h1{
+margin: 10px;
+  }
+
+input{
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 5px;
+
+}
+.paragrafoEmail{
+  font-size: 10px;
+  color: #1a1b1f;
+  margin: 4px;
+}
+.pagina2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+}
+
+.buttonDois{
+  background-color: #1a1b1f;
+  padding: 10px;
+  border-radius: 1px;
+  margin: 10px
+
+}
+
+
+.buttonDois:hover{
+  background-color: #31333a;
+}
+
+
+#video1{
+  margin: 10px;
+  padding: 50px 0px ;
+}
+
+.pagina3{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 100px;
+}
+
+.card1{
+  background-color: #31333a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.textos2{
+  margin: 10px;
+}
+.estadiotitulo{
+  color: white;
+}
+
+.card1:hover{
+  background-color: #484b56;
+}
+
+.paragrafovideo{
+  white-space: pre-line;
+}
+
+main:hover{
+  background-color: #484b56;
+}

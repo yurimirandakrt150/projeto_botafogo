@@ -10,6 +10,18 @@
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
@@ -71,30 +83,113 @@
         </div>
       </div>
     </main>
-    <section class="pagina3">
-      <div class="card1">
-        <video width="350" height="auto" id="video1" loop autoplay muted>
-          <source src="./img/video-camisa7-wbsite.mp4" type="video/mp4" />
-        </video>
-        <div class="textos">
-          <h2 class="estadiotitulo">CONHEÇA NOSSO ESTADIO</h2>
-          <p class="paragrafovideo">
-            O Estádio Nilton Santos, também conhecido como Engenhão, é uma
-            icônica arena esportiva situada no Rio de Janeiro. Inaugurado em
-            2007, o estádio tem sido palco de emocionantes jogos de futebol e
-            eventos esportivos de destaque. Com uma capacidade para
-            aproximadamente 46.000 espectadores, o Engenhão é uma referência no
-            cenário esportivo carioca, oferecendo uma experiência memorável para
-            os fãs de esportes.”
-          </p>
-          <div class="textos2">
-            <h3 class="estadiotitulo">ESTADIO NILTON SANTOS</h3>
-            <p class="paragrafovideo">RIO DE JANEIRO</p>
+    <div class="texto1"></div>
+    <section class="sessao1">
+      <div class="container">
+        <div class="card">
+          <div class="content planobranco">
+            <h2>01</h2>
+            <h3>🔥Plano Branco🔥</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae accusantium esse laboriosam quasi unde autem veritatis
+              praesentium omnis delectus! Sed exercitationem autem quaerat
+              numquam eveniet, quae dolorem. Nesciunt, adipisci iusto.
+            </p>
+            <a href="#">Mais Informações</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content planopreto">
+            <h2>02</h2>
+            <h3>🔥Plano Preto🔥</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae accusantium esse laboriosam quasi unde autem veritatis
+              praesentium omnis delectus! Sed exercitationem autem quaerat
+              numquam eveniet, quae dolorem. Nesciunt, adipisci iusto.
+            </p>
+            <a href="#">Mais Informações</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content planoglorioso">
+            <h2>03</h2>
+            <h3>🔥Plano Glorioso🔥</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae accusantium esse laboriosam quasi unde autem veritatis
+              praesentium omnis delectus! Sed exercitationem autem quaerat
+              numquam eveniet, quae dolorem. Nesciunt, adipisci iusto.
+            </p>
+            <a href="#">Mais Informações</a>
           </div>
         </div>
       </div>
-      <div class="card2"></div>
-      <div class="card3"></div>
     </section>
+    <section class="sessao2">
+      <div class="content2">
+        <video src="/img/video-camisa7-wbsite.mp4" autoplay loop muted></video>
+        <div class="texto3">
+          <h1 class="benefi">
+            BENEFÍCIOS
+            <br />
+            DO NOSSO PLANO
+          </h1>
+          <div class="paragrafos">
+            <span>
+              <img
+                src="https://botafogo.s3.amazonaws.com/prod/images/2023/icon-niltao/icon-ticket-outline.svg"
+                alt=""
+              />
+              <h5>
+                Compra de ingressos adiantado para todos os jogos no Estádio
+              </h5>
+            </span>
+            <span>
+              <img
+                src="https://botafogo.s3.amazonaws.com/prod/images/2023/icon-niltao/icon-seat.svg"
+                alt=""
+              />
+              <h5>Prioridade na escolha do setor</h5>
+            </span>
+            <span>
+              <img
+                src="https://botafogo.s3.amazonaws.com/prod/images/2023/icon-niltao/icon-people-circle-outline.svg"
+                alt=""
+              />
+              <h5>Desconto no ingresso para família e convidados</h5>
+            </span>
+            <span>
+              <img
+                src="https://botafogo.s3.amazonaws.com/prod/images/2023/icon-niltao/icon-trophy.svg"
+                alt=""
+              />
+              <h5>Sistema de experiencia em jogos</h5>
+            </span>
+            <span>
+              <img
+                src="	https://botafogo.s3.amazonaws.com/prod/images/2023/icon-niltao/icon-car.svg"
+                alt=""
+              />
+              <h5>Desconto no Estacionamento</h5>
+            </span>
+          </div>
+          <div class="botao_container">
+            <a href="" class="botao">Garanta os benefícios</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 1,
+      });
+    </script>
   </body>
 </html>
